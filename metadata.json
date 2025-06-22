@@ -1,0 +1,5 @@
+{
+  "name": "StockSageAI",
+  "description": "An AI-powered stock market insights application using Gemini API to provide sentiment analysis, predictive insights, and risk assessment for user-specified stock tickers.",
+  "requestFramePermissions": []
+}

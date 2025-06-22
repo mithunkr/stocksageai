@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StockSageAI</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif; /* A nice default sans-serif font often used with Tailwind */
+    }
+    /* For custom scrollbars if desired, optional */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #1e293b; /* slate-800 */
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #334155; /* slate-700 */
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #475569; /* slate-600 */
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.6.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "chart.js": "https://esm.sh/chart.js@4.4.2",
+    "react-chartjs-2": "https://esm.sh/react-chartjs-2@^5.2.0",
+    "date-fns": "https://esm.sh/date-fns@3.6.0",
+    "chartjs-adapter-date-fns": "https://esm.sh/chartjs-adapter-date-fns@3.0.0",
+    "chart.js/": "https://esm.sh/chart.js@^4.5.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-slate-900 text-slate-100">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
